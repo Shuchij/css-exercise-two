@@ -1,6 +1,54 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-family: "Open Sans", sans-serif;
+  background-color: #0D3D56;
+  color: #FFFFFF;
+  font-size: 16px;
+  }
+
+h1 {
+text-align: center;
+  text-transform: uppercase; /* All characters in 'Designer' will be uppercase */
+  text-transform: lowercase; /* All characters will be lowercase */
+  text-transform: capitalize; /* The first letter of the word will be capitalized */
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.17em;
+  line-height: 1.2; /* within paragraph */
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+}
+
+h3 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+p {
+display: block;
+line-height: 1.5; /* within paragraph */
+text-align: left;
+font-weight: 300;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 20px; /* between paragraphs */
 }
 
 nav {
@@ -13,6 +61,22 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
+  background-image: url(C:\Users\Joshi\bloc\projects\css-exercise-two\images\bloc-logo.png); no-repeat; top; center;
+}
+
+a:link, a:visited {
+    font-family: "Open Sans", sans-serif;
+    background-color: #CD594A;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: white;
+    color: black;
 }
 
 .large-pic {
@@ -20,8 +84,28 @@ nav {
 }
 
 .medium-pic {
-  width: 70%;
+  display: block;
+  float: center;
+  width: 50%;
+  text-align: left;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
 }
+
+figure {
+  display: table;
+}
+
+figcaption {
+  padding: 0.5em;
+  text-align: center;
+
+
+  }
 
 .left, .right {
   float: left;
