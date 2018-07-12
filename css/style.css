@@ -61,7 +61,7 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-  background-image: url(C:\Users\Joshi\bloc\projects\css-exercise-two\images\bloc-logo.png); no-repeat; top; center;
+  background-image: url(https://github.com/Shuchij/css-exercise-two/blob/master/images/bloc-logo.png); no-repeat; top; center;
 }
 
 a:link, a:visited {
